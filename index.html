@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Radosław Sochacki - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
     <header>
@@ -12,12 +14,12 @@
         <p>Ambitious High School Graduate | Aspiring Developer</p>
     </header>
 
-    <section id="about">
+    <section id="about" data-aos="fade-up">
         <h2>About Me</h2>
         <p>I'm a high school graduate with strong skills in Python and JavaScript, eager to learn and grow in the field of technology. </p>
     </section>
 
-    <section id="projects">
+    <section id="projects" data-aos="fade-up">
         <h2>Projects</h2>
         <div class="project">
             <h3>Weather App</h3>
@@ -31,7 +33,7 @@
         </div>
     </section>
 
-    <section id="skills">
+    <section id="skills" data-aos="fade-up">
         <h2>Skills</h2>
         <ul>
             <li>Python (Basics)</li>
@@ -42,12 +44,17 @@
         </ul>
     </section>
 
-    <section id="contact">
+    <section id="contact" data-aos="fade-up">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:radosochacki@gmail.com">radosochacki@gmail.com</a></p>
         <p>GitHub: <a href="https://github.com/RadoSo">github.com/RadoSo</a></p>
     </section>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
 </body>
 </html>
